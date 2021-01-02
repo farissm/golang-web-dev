@@ -13,7 +13,7 @@ func init() {
 }
 
 func main() {
-	err := tpl.ExecuteTemplate(os.Stdout, "tpl.gohtml", `Release self-focus; embrace other-focus.`)
+	err := tpl.ExecuteTemplate(os.Stdout, "tpl.gohtml", `fuck yourself and never surrender`)
 	if err != nil {
 		log.Fatalln(err)
 	}
